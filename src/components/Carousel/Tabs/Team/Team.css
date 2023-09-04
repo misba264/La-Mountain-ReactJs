@@ -1,0 +1,55 @@
+.team-cont {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url('E:\projects\my-task\src\assets\images\photo1.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+  
+}
+.team-cont section{
+    flex: 1;
+}
+.team-subhead {
+   
+background-color: #03396c;
+padding: 1px 180px;
+}
+
+.team-subhead ul {
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+.team-subhead li{
+text-decoration: none;
+list-style-type: none;
+}
+
+.team-subhead li a{
+    color: aliceblue;
+    margin-right: 20px;
+}
+.team-subcont {
+    padding: 0px 220px;
+    flex-grow: 1; 
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .team-subcont {
+        padding: 0px 12px;
+        padding-bottom: 5px;
+     
+    }
+    
+
+    .team-subhead {
+        padding: 1px 0px;
+        }
+}

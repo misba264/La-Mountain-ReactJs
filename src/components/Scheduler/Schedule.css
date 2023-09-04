@@ -1,0 +1,49 @@
+
+.sced-main{
+padding: 50px 200px;
+}
+.sched-cont{
+    width: 400px;
+background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sched-head {
+  padding: 10px;
+    margin: 10px;
+}  
+  .dates-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .date-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  
+  }
+  
+  .date {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .location {
+    flex: 1;
+    text-align: right;
+  }
+  @media screen and (max-width:768px) {
+    .sced-main{
+      padding: 12px 12px;
+      }
+      .sched-cont{
+        width:250px;
+    }
+  }
+  
+  
+  
+  
+  
+  

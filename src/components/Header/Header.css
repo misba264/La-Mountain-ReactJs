@@ -1,0 +1,49 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   height: 60px;
+   padding: 12px;
+   background-color: var(--header-bg-color);
+}
+
+.nav-list {
+   gap: 10px;
+   list-style-type: none;
+  
+}
+
+nav ul {
+   list-style-type: none;
+   text-decoration: underline;
+   display: flex;
+   gap: 1rem;
+}
+
+nav li {
+   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+   nav{
+      width: 100%;
+   }
+
+   .nav-list {
+     display: flex;
+     flex-direction: column;
+       background-color:   #03396c;
+       color: white;
+       
+ 
+   }
+
+   .header{
+
+      flex-direction: column;
+      align-items: flex-start;
+      height: max-content;
+   }
+   .myimg{
+      height: 40px;
+   }
+}

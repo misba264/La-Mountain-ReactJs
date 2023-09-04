@@ -1,0 +1,27 @@
+
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url('E:\projects\my-task\src\assets\images\hero.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+
+.logo {
+    background: url('E:\projects\my-task\src\assets\images\logo.png') no-repeat center;
+    background-size: contain;
+    width: 100px; 
+    height: 50px;  
+    display: inline-block;
+}
+
+

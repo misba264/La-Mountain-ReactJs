@@ -1,0 +1,30 @@
+.footer-cont{
+    background-color: #03396c;
+    height: 8%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    
+    color: white;
+    font-size: 8px;
+}

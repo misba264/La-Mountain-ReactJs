@@ -1,0 +1,54 @@
+
+.history-cont {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;  
+    background-image: url('E:\projects\my-task\src\assets\images\peak.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;  
+    display: flex;
+flex-direction: column;
+
+}
+
+.history-cont section{
+    flex: 1;
+}
+
+.history-subcont {
+    padding: 0px 220px;
+    flex: 1; 
+}
+#history-txt-main{
+    color: #03396c;
+    font-size: 100px;
+    font-weight: 600; 
+    color: #b3cde0;
+}
+#history-txt{
+    margin-top: 30px;
+    margin-left: -20px;
+    color: #03396c;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .history-subcont {
+        padding: 0px 12px;
+     
+    }
+    #history-txt-main{
+       
+    font-size: 50px;
+    font-weight: 200; 
+    
+    }
+
+    #history-txt{
+        margin-top: 15px;
+        margin-left: -10px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
