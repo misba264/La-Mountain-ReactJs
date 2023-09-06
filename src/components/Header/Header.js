@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import HistoryLogo from '../../assets/images/logo1.png'; 
 import DefaultLogo from '../../assets/images/logo.png'; 
 import "./Header.css"

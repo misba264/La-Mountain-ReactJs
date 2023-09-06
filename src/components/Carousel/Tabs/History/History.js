@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import React from 'react';
 import "./History.css"
 import Carousel from "../../Carousel/Carousel" 
 
